@@ -1,0 +1,338 @@
+========== 🌸 ANOTAÇÕES PROVA SLIDE I 🌸 ==========
+
+🍬 Conceitos de Dados Lineares
+    🎈 Uma estrutura de dados representa um processo sistemático, ele é utilizado para computar um resultado a partir de dados de entrada. Ou seja, com isso nasce o algoritmo que é uma forma de tratar argumentos de forma lógica a fim de tirar conclusões. Organiza informações.
+
+🍬 Tipos de Dados lineares
+    🎈 Pilha: Armazenam elementos em um formato sequencial, empilham itens um acima do outro(como uma pilha de pratos, por ex). Essa estrutura permite empilhar os itens que são armazenados e desempilhar eles quando precisamos remove-los.
+        💙 Sempre que um novo elemento é inserido(empilhado) damos a ele o nome de TOPO, pois é o primeiro elemento ao qual teremos acesso.
+        💙 Pilha segue o padrão LIFO (Last in First Out), o ultimo a entrar será o primeiro a sair.
+        💙 O topo da pilha sempre é o ultimo elemento inserido.
+        💙 Sempre que for remover um item, o ultimo elemento inserido que será removido primeiro.
+        💙 Pilha é uma lista linear na qual as operações de inserir e remover são efetuadas sempre num mesmo extremo, denominado topo da pilha.
+
+        💙 Em pilhas, o PUSH(nomeElemento) significa inserir elemento.
+            Ex: push(a) -> insere o elemento 'a' na pilha.
+                push(b) -> insere o elemento 'b' na pilha.
+                push(c) -> insere o elemento 'c' na pilha.
+
+        💙 Na pilha, o POP(), significa remover o ultimo elemento inserido.
+            Ex: pop() -> remove o elemento 'c'
+                pop(a) -> remove o elemento 'a'
+
+    🎈 Fila: O primeiro elemento a ser inserido, será também o primeiro a ser retirado. Dessa forma, serão adicionados elementos no fim da fila e removidos pelo inicio da fila.
+        💙 Fila segue o padrão FIFO (First in First Out), onde o primeiro a entrar é o primeiro a sair.
+        💙 As filas podem armazenar dados, porém a forma de inserir ou remover dados podem ser feitas em qualquer uma das pontas.
+    
+    🎈 Lista: Armazenam dados em um formato de lista. É um conjunto de estruturas chamadas 'nós'. Um nó é uma estrutura que armazena a informação a ser gerenciada por uma lista.
+        💙 Existem 2 tipos de lista: As listas ligadas e as listas duplamente ligadas:
+            💛 Lista ligada: Cada um dos nós de uma lista ligada, além de conhecer o valor que está sendo armazenado, também conhece o elemento posterior a ele: pois os nós são amarrados com essa indicação de qual é o proximo nó.
+
+            💛 Lista duplamente ligada: A diferença essa para a lista ligada é que elas são bidirecionais. Numa lista normalmente nao conseguimos andar pra tras, pois os nós da lista ligada sabem somente quem é o proximo elemento. Nas duplamente ligadas, os nós sabem quem é o proximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
+
+🍬 Aplicação de uma estrutura de dados:
+    🎈 Para realizar uma estrutura de dados é necessário conhecer algumas operações basicas:
+        💙 Como inserir um novo item;
+        💙 Como excluir um item já existente;
+        💙 Pesquisas e localizar determinado elemento;
+        💙 Classificar os itens em ordem, seja numerica, alfabetica ou outra.
+
+🍬 Estrutura de dados é uma modelagem abstrata dos objetos ou estruturas a serem manipulados e das operações sobre eles.
+    🎈 Uma modelagem concreta é relacionada aos Tipos Abstratos de Dados(TAD - Abstract Data Type)
+        💙 Podemos dizer que um tipo abstrato de dados é um modelo que encapsula um modelo de dados e também um conjunto de procedimentos que atuam diretamente no tratamento desses dados encapsulados
+        💙 Um tipo de dados abstratos possui duas partes:
+            💛 Dados armazenados
+            💛 Funções que manipulam os dados
+                💡 Os dados podem ser armazenados em variaveis vetores, ponteiros etc.
+                💡 Já as funções implementam procedimentos por meio de operações, métodos, serviços. É importante dizer que qualquer processamento realizado só deve atuar sobre os dados encapsulados em um TAD,, além disso os processamentos só poderão acontecer intermédio dos procedimentos definidos no modelo do TAD.
+                💡 Um exemplo de dado manipulado:   nome = nome.toUpperCase();
+                💡 Outros exemplos: Pilha, filas, listas, árvores (estruturas que armazenam os dados e relacionam cada dado com 2 ou mais dados), mapas/dicionários(estruturas comuns e relacionam chave com um valor: {idade:10,profissão:estudante})
+
+        💙 TAD é um modelo matematico que visa representar um conjunto de operações sobre um conjunto de valores. Um TAD é normalmente representado atraves de uma especificação algebrica que contém 3 partes: semantica, sintatica e restrições.
+            💛 Semantica trata do comportamento de um tipo abstrato de dados;
+            💛 Sintatico define a apresentação de um tipo abstrato de dados;
+            💛 Restrições como o proprio nome diz, são responsaveis por estabelecer condições para a aplicação das operações.
+
+        💙 Dados homogeneos: Dados iguais, aqueles que possuem só um tipo básico de dados(inteiros), tipo inteiro sendo um numero(idade, peso, algo numerico)
+
+        💙 Dados heterogeneos: Dados diferentes, aqueles que possuem mais de um tipo basico de dados(caracteres e inteiros), tipo texto sendo um numero(nome, idade, algo em caracteres)
+
+        💙 Estruturas lineares: Elementos de dados são organizados sequencialmente ou linearmente, onde os elementos são anexados ao seu predecessor o ao sucessor. Podemos percorrer todos os elementos em uma unica execução apenas. São faceis de implementar porque a memoria do computador é organizada de forma linear.
+
+        💙 Estrutura em que cada elemento pode ter um UNICO predecessor(menos o primeiro) e um unico sucessor (menos o ultimo).
+
+        💙 Quando se sabe o numero de elementos, algo que previamente voce sabe o tamanho, a quantidade.
+
+            💛 Pilhas, filas, listas, arranjos, filas vinculadas, tabela hash são exemplos de estruturas lineares.
+            💛 Ex: O tanto de computadores numa sala, o tamanho de um vetor criado por voce.
+
+        💙 Estruturas não lineares: Elementos de dados não são organizados sequencialmente ou linearmente. Não podemos percorrer todos os elementos em uma unica execução apenas. Não são faceis de implementar em comparação com a estrutura de dados linear. Utiliza a memoria do computador de forma eficiente em comparação a uma estrutura de dados linear.
+
+        💙 Estrutura que apesentam cada elemento podendo TER MAIS DE UM PREDECESSOR ou SUCESSOR.
+
+        💙 Quando não se sabe o tamanho de elementos que voce tem, algo que nao sabemos a quantidade, algo que pode ser imprevisivel, pode ter mais de um predecessor ou sucessor. 
+
+            💛 Arvores e grafos são exemplos de estruturas não-lineares.
+                💡 Arvores: consiste em varios nós vinculados. Arvores são hierarquicas, formando um relacionamento como o do pai e do filho. Essa estrutura é formada de forma que haja uma conexao para cada relacionamento de nó pai-filho. Deve existir apenas um caminho entre a raiz e um nó na arvore.
+
+                💡 Grafos: consistem em uma quantidade definida de vértices e arestas. Os vértices ou nós estao evnolvidos no armazenamento de dados e as arestas mostram a relação dos vértices. A diferença entre um grafo e uma area é que em um grafo nao existem regras especificas para a conexao de nós.
+
+            💛 Ex: não saber o tanto de alunos virá pra uma aula, uma agenda telefonica, grafos e arvores.
+            💛 Para busca de dados, a melhor opção de estrutura é a não-linear.
+        
+========================= Alocação dinamica de memória e etc SLIDE 2
+
+🍬 Estruturas (Struct)
+
+    🎈 São estruturas cujo seu conteudo contém muitas variaveis, seus elementos individuais podem ser de tipos diferentes. Uma struct é uma coleção de variaveis referenciais por um nome. Atraves de uma estrutura é possivel agrupar informaçoes relacionadas.
+    🎈 Uma struct pode conter elementos inteiros, elementos float e elementos caracter. Ponteiros, matrizes e outras estruturas também podem ser elementos de uma estrutura.
+    🎈 Os elementos individuais de uma estrutura são chamados de membros.
+    🎈 Um membro na estrutura pode ser acessado escrevendo-se: variavel.membro -> onde "variavel" refere-se ao nome de uma variavel estrutura e "membro" refere-se ao nome de um membro da estrutura.
+    🎈 O ponto (.) que separa o nome da variavel do nome do membro. Esse ponto é um operador (operador ponto) que acessa o conteudo.
+
+🍬 Alocação de memória
+
+    🎈 As informações de um programa sempre estao armazenadas na memória. Para que um programa possar armazenar iformações em uma area de memória é necessario que tal area seja previamente alocada, ou seja, precisamos solicitar ao SO que reserve determinada area de memória para o programa e que a proteja, para que outros programas não utilizem essa região de memória reservada ao programa em questão.
+
+        💙 Alocar uma area de memória significa solicitar ao SO que reserve uma area para uso exclusivo de um determinado programa.
+
+🍬 Alocação estática x alocação dinamica
+    🎈 Estática: os tipos de dados tem tamanho predefinido. O compilador vai alocar de forma automatica o espaço de memória necessario. Sendo assim, dizemos que a alocação estatica é feito em tempo de compilação. Esse tipo de alocação tende a desperdiçar recursos, já que nem sempre é possível determinar previamente qual é o espaço necessario p/ armazenar as informações. Aqui é mais comum o programador exagerar quando nao se conhece o espaço total necessario, entao a tendencia é exagerar por é melhor superdimensionar do que faltar espaço.
+
+        💙 Ou seja, a alocação estática aloca regioes de memoria que serao utilizadas pelo programa, o problema é que o tamanho é calculado pelo compilador, não podendo ser alterado durante a execução de um programa. O programa pode pegar mais memória do que o necessario, desnecessariamente.
+
+    🎈 Dinamica: Aqui podemos alocar espaços durante a execução de um programa, ou seja, a alocação dinamica é feita em tempo de execução. Isto é bom pro programador, por permite que o espaço em memória seja alocado apenas quando necessário. Além disso, a alocação dinamica permite aumentar ou até diminuir a quantidade de memória alocada.
+
+        💙 O ideal seria alocar uma quantidade de memória somente quando o programa necessitar e liberar para outros programa quando o mesmo nao estiver sendo mais utilizada. Aloca a memória em tempo de execução uma quantidade qualquer de memoria sem precisar conhecer seu tamanho previamente e libera essa area depois de utilizar. 💙 Permite o programa reservar uma area de memória em tempo de execução.
+        💙 A linguagem C disponibiliza varias funções para alocar, liberar e redimensionar areas de memória. Essas funções estão na biblioteca malloc.h.
+        💙 A biblioteca que possui funções para alocar, liberar e redimensionar areas de memoria é chamada de alloc.h.
+        💙 As funções da biblioteca malloc.h mais utilizadas são malloc e free.
+
+            💛 sizeof: A função sizeof determina o numero de bytes para um determinado tipo de dados.
+            💛 malloc(): o nome é a abreviatura(memory allocation), solicita ao sistema alocar uma area de memória, em tempo de execução, do tamanho especificado. A função malloc aloca um espaço de memória e retorna um ponteiro do tipo void para o inicio do espaço de memória alocado.
+                💡 Aloca espaço para um bloco de bytes consecutivos na memoria RAM(random access memory) do computador e devolve o endereço desse bloco. O numero de bytes é especificado no ARGUMENTO DA FUNÇÃO.
+                💡 malloc(1) -> alocando 1 byte.
+                💡 Muito utilizado na implementação de estruturas de dados dinamicas, tipo listas encadeadas.
+            💛 free(): ela libera uma area de memória que já foi previamente alocada com o malloc().
+                💡 As variaveis alocadas estaticamente dentro de uma função, desaparecem assim que a execução da função termina.
+                💡 As variaveis alocadas dinamicamente continuam a existir mesmo depois que a execução da função termina.
+
+========================= RECURSIVIDADE e etc SLIDE 3 🍬🌸🎈🍓📌💡
+
+🍬 Chamamos de recursividade quando uma função chama a si mesma.
+    🎈 Consiste em dividir um problema em um problema menor e mais simples
+    🎈 A recursividade é mais lenta que a iteratividade.
+    🎈 2 tipos de recursividade:
+        💙 Recursividade direta: a mesma função tem uma chamada para ela mesma.
+        💙 Recursividade indireta: chama a primeira função, não necessariamente tem ligação com a primeira.
+    🎈 Toda chamada recursiva cria uma variavel e o identificador dela.
+    🎈 Uma função é dita recursiva quando dentro do seu código existe uma chamada para si mesma.
+    🎈 Toda recursividade precisa de uma condição de parada
+    🎈 Um algoritmo recursivo precisa:
+        💙 Deve conter pelo menos uma estrutura de condição(if, if-else, switch-case)
+        💙 Deve invocar a si mesmo pelo menos uma vez ao ser executado.
+    🎈 Para todo algoritmo recursivo, existe um outro correspondente iterativo, que executa a mesma coisa(for, while...)
+    🎈 Nao pode transformar um algoritmo iterativo para recursivo, o contrario é 'mais facil'
+    🎈 Diferenças de utilização das estruturas de repetição:
+        💙 for = quando eu sei quantos tem, quando sei contar os numeros
+        💙 while = quando nao sei a quantidade das coisas e pode nao ter nenhum conteudo
+        💙 do while = quando nao sei a quantidade e deve ter pelo menos 1, ou seja, quando tiver pelo menos 1 unidade
+    🎈 Algoritmos recursivos possuem código mais claro, legivel e compacto
+    🎈 Toda recursividade é composto por um caso base e pelas chamadas recursivas:
+        💙 Caso base: é o caso mais simples. É usada uma condição em que se resolve o problema com facilidade.
+        💙 Chamadas recursivas: procuram simplificar o problema de tal forma que convergem para o caso base.
+    🎈 As desvantagens da recursividade:
+        💙 Consomem mais recursos, logo a apresentar um desempenho inferior aos iterativos, pois a iteratividade consome menos memória e torna-se mais eficiente em termos de performance do que usar recursão.
+        💙 Consomem mais memoria e processamento do PC, memória, devido ao uso intensivo da pilha
+        💙 São mais dificeis de serem depurados, nao acessam a pilha com facilidade
+    🎈 O fatorial é um exemplo classico de recursividade
+	        n! = 1			se n = 0
+	        n * (n-1)!		se n > 0
+    🎈 Basicamente os resultados no fatorial é um empilhamento de numeros e depois desempilhando para gerar a multiplicação
+    🎈 Uma função não recursiva é a que apresenta uma estrutura de repetição(for, while, do while)
+
+🍬 Diferenças de i++ / ++i:
+
+	🎈 pós incremento i++ = Primeiro usa e depois executa, soma +1 e passa o valor(num contexto de função), utiliza a variavel e depois soma. Primeiro apresenta o valor da variavel e depois soma + 1. Se eu rodar de novo, já mostrará o valor atualizado.
+
+	🎈 pré incremento ++i = Executa todos os calculos e já printa com o resultado atualizado. Adiciona 1 unidade e já mostra o resultado. Primeiro incrementa e depois mostra.
+
+========================= 🌸 CONVERSÃO BYTES SIZEOF ARVORES 🌸 🍬🌸🎈🍓📌💡
+🍬 Arvores:
+    🎈 Tambem pode ser chamado de grafo, mas tem um ponto onde inicia toda a arvore.
+	🎈 Não tem retorno do filho para o pai, retorno da subarvore para a raiz, o filho nao pode ser o pai do proprio pai
+	    💙 Em grafo posso ir a varios elementos, arvores somente desce os niveis, ele nao volta para elementos anteriores.
+	🎈 Arvores são estrutura de dados hierarquicas.
+	🎈 Arvores sao formadas por um conjunto de elementos, os quais chamamos de nodos(ou vértices) conectados de forma especifica por um conjunto de arestas.
+	🎈 Nivel 0 é a raiz da arvore, e está no topo da hierarquia.
+	🎈 Outros nodos estão conectados ao nodo raiz e aos demais nodos. Ou seja, são interligados.
+	🎈 As conexões entre os nodos de uma arvore seguem uma nomenclatura genealogica. Um nodo em um dado nivel esta conectado a seus filhos(no nivel abaixo) e a seu pai(no nivel acima). A raiz da arvore possui filhos, mas nao possui pai, é o nivel 0.
+	🎈 A arvore é um relacionamento logico, tem relação os elementos uns com os outros
+	🎈 Há uma subordinação, hierarquia.
+	🎈 Onde: um subconjunto dos componentes é subordinado a outro.
+
+    💡 Utilizamos a arvore em:
+	    🎈 Pasta do explorer.
+	    🎈 Historico da web: elementos hierarquicos, o ultimo elemento consultado é o topo da arvore.
+	    🎈 Rotas de um trajeto: varios caminhos, mas sempre percorre 1 caminho.
+	    🎈 Chaves de jogos de times de futebol:
+		    💙 Pode-se dizer que uma estrutura hierarquica testa as condições, se há algo de maior hierarquia, nao faz sentido testar as outras condições com baixa prioridade.
+	
+	🎈 Ordenação de valores: Em arvore binaria há somente 1 elemento distinto (raiz), com 2 elementos para duas estruturas diferentes, ou nenhum caminho. Basicamente, um pai com 2 filhos mesmo.
+
+	🎈 Diagrama de inclusão: Pode-se dizer que é como o "Universal" em teoria dos conjuntos.
+    🎈 Pode-se dizer que a raiz é como o conjunto universal, ela engloba todos os nós, os nós das sub-arvore são os conjuntos restantes e a cada conjunto(nó) há outros nós dentro deste conjunto.
+    🎈 O diagrama de venn é algo que pode representar e o Conjunto Universo é a definição boa pra isso (no caso aqui, o universo é o pai) e os subconjuntos(que no caso aqui são os filhos)
+
+    💡 Arvores - Terminologias(resumo delas)
+        🎈 Raiz: nó de origem da arvore
+        🎈 Folhas: nós que nao tem filho
+        🎈 Grau de um nó: numero de filhos de cada nó(numero de subarvores de um nó)
+        🎈 Nivel de um nó: é o numero de linhas que ligam o nó a raiz, é a distancia do nó até a raiz.
+        🎈 Altura: é o nivel mais alto da arvore
+        🎈 Floresta: conjunto de arvores
+        🎈 Galhos: nós que nao sao raiz e nem folhas, nós internos
+        🎈 Aresta de uma arvore: linha que liga 2 nós da arvore
+        🎈 Caminho: caminho entre 2 nós de uma arvore, percorrendo as arestas que ligam os nós.
+        🎈 Isomorfas: Arvores que podem se tornar simultaneas nas subarvores, ou seja, podem fazer uma "inversão" nas subarvores. Preserva a estrutura geral da arvore, só trocando seus valores.
+
+        🎈 Calcular percursos:
+            📌 Pré ordem: Começa da raiz e anda pelos nós da esquerda, passando para a direita, envelopa todos os nós da esquerda para a direita. USA a raiz como primeiro elemento.
+                💙 A ação no nó é feita pela esquerda, cada passada no nó indicará um "print", uma ação.
+            📌 Em ordem: Começa pelos filhos da esquerda, depois pra raiz e depois pros filhos da esquerda, a ação é feita por baixo. Não usa a raiz como primeiro elemento.
+           📌 Pós-ordem: Imprime sempre que passar PELA DIREITA do nó. Não usa a raiz como primeiro elemento.
+
+                 4     A ordem de print dessa arvore é:
+             /      \           Pré-ordem: 4, 1, 3, 2, 6, 5, 7
+            1        6          Em ordem: 1, 2, 3, 4, 5, 6, 7
+             \      / \         Pós-ordem: 2, 3, 1, 5, 7, 6, 4
+              3    5   7
+             /
+            2
+
+    💡 Arvores - Definição
+	    🎈 Quando eu tenho uma raiz qualquer nó é um subconjunto da minha raiz. A partir da raiz, os demais abaixo sao sub arvores.
+	    🎈 Toda arvore TEM raiz, se nao tiver nao é uma arvore. Quando tem mais de 1 nó, há subarvores.
+        🎈 Se o numero de nós for igual a zero: arvore vazia.
+        
+    💡 Arvores - Grau de um nó, grau significa o numero de filhos de cada nó.
+	    🎈 Grau de saida
+        🎈 Grau 0:  0 filhos -> chama-se de nó folha.
+	    🎈 Grau 1:  1 filho
+	    🎈 Grau 2:  2 filhos
+	    🎈 Grau 3:  3 filhos -> precisa de no minimo 3 filhos para ser representado. 
+            📌 Esse grau 3 é para arvores gerais, nao se aplica a arvore binaria.
+
+    💡 Arvores - nó
+        🎈 Cada nó pode ter no maximo 2 filhos, pode ter 0 1 ou 2 filhos.
+	    🎈 Nó interno, nó de derivação: são aqueles que estão no caminho entre a raiz da arvore e os nós folha.
+	    🎈 Nó com grau maior do que zero: tem pelo menos 1 filho
+	    🎈 Nó folha(nó terminal ou externo), nó com grau igual a zero. Praticamente o fim da arvore, nós sem filhos.
+
+    💡 Arvore - nível
+        🎈 Nível: Cima pra baixo, da raiz para as folhas
+	    🎈 Nivel = O nivel de um nó refere-se a sua posição na arvore, a partir da raiz. 
+        🎈 Representa a profundidade de um nó na arvore, medido a partir da raiz.
+        🎈 Raiz é nivel 1. Os nós filhos estão no nivel 2, os filhos do nivel 2 estão no nivel 3.
+	        🎈 Primeiro nivel = raiz
+	        🎈 Segundo nivel = filhos do nivel 1
+	        🎈 Terceiro nivel = filhos do nivel 2
+	        🎈 Quarto nivel = filhos do nivel 3
+        🎈 A cada nivel, a quantidade de nós existente na arvore é multiplicado x2, por exemplo:
+            💙 Nivel 1 = 1 nó
+            💙 Nivel 2 = 2 nós
+            💙 Nivel 3 = 4 nós (2 x 2, nivel 2 multiplica x 2)
+            💙 Nivel 4 = 8 nós (4 x 2, nivel 3 multiplica x 2)
+
+    💡 Arvore - Altura de um nó: numero de ligações entre o nó e o nó folha de maior nivel, acrescido de uma unidade
+        🎈 Altura: Baixo pra cima, das folhas para a raiz
+	    🎈 Altura de nó folha é 1
+	    🎈 A altura começa nas folhas(subfilhos)
+	    🎈 A menor altura é o elemento mais profundo da arvore, vulgo os ultimos elementos
+        🎈 Caminho é a sequencia de nós que eu percorro na linha da arvore, pode medir pelas arestas ou pelos nós.
+        🎈 Altura é o comprimento do caminho entre a raiz e a folha mais profunda, numero de ligações entre os nós do caminho.
+        🎈 Em uma arvore binaria, a altura é a maior distancia que existe entre o nó raiz e o nó folha
+
+    💡 Arvore ordenada: Uma arvore é ordenada quando os filhos estão ordenados, da esquerda pra direita.
+        🎈 O valor de cada nó na esquerda é MENOR que o valor da raiz.
+        🎈 O valor de cada nó na direita é MAIOR que o valor da raiz.
+        Ex:
+              B     ->  B é a raiz.
+             / \    ->  A vem primeiro que B.
+            A   C   ->  C vem depois de B.
+
+    💡 Arvores AVL: 
+        🎈 Toda AVL é uma arvore binaria
+        🎈 Sempre trabalhar com arvore cheia ou completa.
+        🎈 Cheia: todos os nós estao completos, os filhos tem filhos, somente no ultimo nível tem nós vazios.
+        🎈 Completa: Somente no ultimo ou penultimo nó estao vazios.
+        🎈 Arvore cheia é uma arvore ja balanceada.
+        🎈 Altura funciona como a contagem de nós, iniciando-se em 0 de baixo pra cima.
+        🎈 O calculo de altura é feita SEMPRE em modulo. | |, o resultado sempre será positivo.
+		      💙 | Altura da esquerda - altura da direita |, TUDO EM MÓDULO.
+		      💙 Sinais diferentes = -
+		      💙 Sinais iguais = +
+		      💙 0 - 1 = -1
+		      💙 Para fazer esse calculo precisa contar quantos nós o valor que voce parou tem, por exemplo:
+                O meu nó tem 1 filho pra esquerda e 0 pra direita:
+                    1 - 0 = 1
+                O meu nó tem 0 filho na esquerda e 1 na direita:
+                    0 - 1 = -1
+                O meu nó tem 0 filho na esquerda e 2 na direita:
+                    0 - 2 = -2
+                
+                4       -> 0 nó esquerda, 2 nó direita: 0 - 2 = -2
+                 \   
+                  6     -> 0 nó esquerda, 1 nó direita: 0 - 1 = -1
+                   \ 
+                    7   -> nivel 0
+
+                27       -> 3 nó esquerda, 1 nó direita: 3 - 1 = 2
+               /  \   
+              15   49     -> 49 = nivel 0 ///// 
+             /            -> 15 = 2 nó esquerda, 0 nó direita: 2 - 0 = 2
+             
+            10   -> 1 nó esquerda, 0 nó direita: 1 - 0 = 1  
+           /
+          8     -> nivel 0
+
+
+        🎈 Nó sem filhos pode-se pensado como 0, mas o calculo ainda precisa ser feito pelo PC, precisamos implementar a operação em código.
+        🎈 A montagem da arvore é sempre pela ordem de inserção, a raiz é o primeiro elemento que aparece (11,35,9 -> a raiz é 11).
+        🎈 O conceito balancear uma arvore é para otimizar a busca de algum elemento, pois consequentemente haverá poucas comparações.
+        🎈 Altura é de baixo para cima.
+        🎈 Os elementos organizados um atras do outro é um vetor, e nao uma arvore.
+        🎈 Calculo de balanceamento:
+		🎈 Se o resultado for 0 ou 1 é porque ta balanceado, se estiver acima de 1 (exatos 2, ou mais que 2) é porque está desbalanceado. 
+            💙 LEMBRAR DO NÓ QUE NÃO TEM FILHO = 0 (-1 é o nó "oculto", vem antes do nó 0).
+
+        🎈 O algoritmo de busca em arvores binarias de pesquisa podem ser divididos em 3 casos:
+            💙 O valor procurado está na raiz. Nisso o programa acaba e retornamos o valor da raiz como resultado.
+            💙 O valor procurado é menor que numero da raiz. Aqui procurando pelo valor somente na subarvore da esquerda, pois é onde os menores valores em relação a raiz estao.
+            💙 O valor procurando é maior que o numero da raiz. Aqui temos que procurar nas subarvores da direita, pois lá estao os valores que sao maiores que o valor da raiz.
+
+🍬 Conversão bytes e bits
+    
+    💡💡 8 bits = 1 byte 💡💡
+
+    💡 bits para byte = dividir por 8
+    💡 byte para bits = multiplicar por 8 
+        🎈 BIT (b) > BYTE (B) = divisão
+        🎈 BYTE (B) > BIT (b) multiplicação
+            📌 b minusculo = bits
+            📌 B maiusculo = bytes
+
+    🎈 10 Mbps = 10 megabits por segundo
+    🎈 10 Mbps / 8 = 1,25 MB (1,25 megabytes)
+        
+    🎈 800 bits = 100 bytes (foi dividido: 800 / 8 = 100)
+    
+    🎈 K = quilo = mil BYTES            (1.000)
+    🎈 M = mega = milhões de BYTES      (1.000.000)
+    🎈 G = giga = bilhões de BYTES      (1.000.000.000)
+    🎈 T = tera = trilhões de BYTES     (1.000.000.000.000)
+
+🍬 Operador sizeof
+    🎈 A função sizeof determina o numero de bytes para um determinado tipo de dados.
+    🎈 Retorna o tamanho de um dado.
+    🎈 Sizeof eu pego o tamanho da variavel de forma dinamica.
