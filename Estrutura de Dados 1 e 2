@@ -269,11 +269,11 @@
         🎈 Arvore cheia é uma arvore ja balanceada.
         🎈 Altura funciona como a contagem de nós, iniciando-se em 0 de baixo pra cima.
         🎈 O calculo de altura é feita SEMPRE em modulo. | |, o resultado sempre será positivo.
-		      💙 | Altura da esquerda - altura da direita |, TUDO EM MÓDULO.
-		      💙 Sinais diferentes = -
-		      💙 Sinais iguais = +
-		      💙 0 - 1 = -1
-		      💙 Para fazer esse calculo precisa contar quantos nós o valor que voce parou tem, por exemplo:
+           💙 | Altura da esquerda - altura da direita |, TUDO EM MÓDULO.
+           💙 Sinais diferentes = -
+           💙 Sinais iguais = +
+           💙 0 - 1 = -1
+           💙 Para fazer esse calculo precisa contar quantos nós o valor que voce parou tem, por exemplo:
                 O meu nó tem 1 filho pra esquerda e 0 pra direita:
                     1 - 0 = 1
                 O meu nó tem 0 filho na esquerda e 1 na direita:
