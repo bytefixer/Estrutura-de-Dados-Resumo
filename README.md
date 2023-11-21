@@ -1,2 +1,2 @@
-# Estrutura-de-Dados-Resumo
-Meus resumos de EDD I/II feitos para algumas provas que tive na faculdade.
+# Anotações feitas para as provas da faculdade.
+Meus resumos de algumas matérias do curso, estudando para as provas.
