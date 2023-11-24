@@ -25,7 +25,7 @@ O melhor método depende do objetivo: Caso queira enviar arquivos e tratar de da
 Onde Eu informo o destino para recebimento de dados de um formulário. Traga exemplo de código.
 
 O destino precisa ser informado dentro do código HTML, especificamente em um atributo do <form> que se chama <action>, nele colocaremos o nome do arquivo PHP que será o nosso destino, exemplo abaixo:
-...
+
 <form   action="nomeDestino.php" method="post" enctype="multipart/form-data">
 ...
 </form>
