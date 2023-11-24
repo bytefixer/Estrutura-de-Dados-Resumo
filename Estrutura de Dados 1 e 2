@@ -1,35 +1,5 @@
 ========== 🌸 ANOTAÇÕES PROVA SLIDE I 🌸 ==========
 
-🍬 Conceitos de Dados Lineares
-    🎈 Uma estrutura de dados representa um processo sistemático, ele é utilizado para computar um resultado a partir de dados de entrada. Ou seja, com isso nasce o algoritmo que é uma forma de tratar argumentos de forma lógica a fim de tirar conclusões. Organiza informações.
-
-🍬 Tipos de Dados lineares
-    🎈 Pilha: Armazenam elementos em um formato sequencial, empilham itens um acima do outro(como uma pilha de pratos, por ex). Essa estrutura permite empilhar os itens que são armazenados e desempilhar eles quando precisamos remove-los.
-        💙 Sempre que um novo elemento é inserido(empilhado) damos a ele o nome de TOPO, pois é o primeiro elemento ao qual teremos acesso.
-        💙 Pilha segue o padrão LIFO (Last in First Out), o ultimo a entrar será o primeiro a sair.
-        💙 O topo da pilha sempre é o ultimo elemento inserido.
-        💙 Sempre que for remover um item, o ultimo elemento inserido que será removido primeiro.
-        💙 Pilha é uma lista linear na qual as operações de inserir e remover são efetuadas sempre num mesmo extremo, denominado topo da pilha.
-
-        💙 Em pilhas, o PUSH(nomeElemento) significa inserir elemento.
-            Ex: push(a) -> insere o elemento 'a' na pilha.
-                push(b) -> insere o elemento 'b' na pilha.
-                push(c) -> insere o elemento 'c' na pilha.
-
-        💙 Na pilha, o POP(), significa remover o ultimo elemento inserido.
-            Ex: pop() -> remove o elemento 'c'
-                pop(a) -> remove o elemento 'a'
-
-    🎈 Fila: O primeiro elemento a ser inserido, será também o primeiro a ser retirado. Dessa forma, serão adicionados elementos no fim da fila e removidos pelo inicio da fila.
-        💙 Fila segue o padrão FIFO (First in First Out), onde o primeiro a entrar é o primeiro a sair.
-        💙 As filas podem armazenar dados, porém a forma de inserir ou remover dados podem ser feitas em qualquer uma das pontas.
-    
-    🎈 Lista: Armazenam dados em um formato de lista. É um conjunto de estruturas chamadas 'nós'. Um nó é uma estrutura que armazena a informação a ser gerenciada por uma lista.
-        💙 Existem 2 tipos de lista: As listas ligadas e as listas duplamente ligadas:
-            💛 Lista ligada: Cada um dos nós de uma lista ligada, além de conhecer o valor que está sendo armazenado, também conhece o elemento posterior a ele: pois os nós são amarrados com essa indicação de qual é o proximo nó.
-
-            💛 Lista duplamente ligada: A diferença essa para a lista ligada é que elas são bidirecionais. Numa lista normalmente nao conseguimos andar pra tras, pois os nós da lista ligada sabem somente quem é o proximo elemento. Nas duplamente ligadas, os nós sabem quem é o proximo elemento e também quem é o elemento anterior, o que permite a navegação reversa.
-
 🍬 Aplicação de uma estrutura de dados:
     🎈 Para realizar uma estrutura de dados é necessário conhecer algumas operações basicas:
         💙 Como inserir um novo item;
@@ -52,10 +22,6 @@
             💛 Semantica trata do comportamento de um tipo abstrato de dados;
             💛 Sintatico define a apresentação de um tipo abstrato de dados;
             💛 Restrições como o proprio nome diz, são responsaveis por estabelecer condições para a aplicação das operações.
-
-        💙 Dados homogeneos: Dados iguais, aqueles que possuem só um tipo básico de dados(inteiros), tipo inteiro sendo um numero(idade, peso, algo numerico)
-
-        💙 Dados heterogeneos: Dados diferentes, aqueles que possuem mais de um tipo basico de dados(caracteres e inteiros), tipo texto sendo um numero(nome, idade, algo em caracteres)
 
         💙 Estruturas lineares: Elementos de dados são organizados sequencialmente ou linearmente, onde os elementos são anexados ao seu predecessor o ao sucessor. Podemos percorrer todos os elementos em uma unica execução apenas. São faceis de implementar porque a memoria do computador é organizada de forma linear.
 
@@ -117,7 +83,7 @@
                 💡 As variaveis alocadas estaticamente dentro de uma função, desaparecem assim que a execução da função termina.
                 💡 As variaveis alocadas dinamicamente continuam a existir mesmo depois que a execução da função termina.
 
-========================= RECURSIVIDADE e etc SLIDE 3 🍬🌸🎈🍓📌💡
+========================= RECURSIVIDADE
 
 🍬 Chamamos de recursividade quando uma função chama a si mesma.
     🎈 Consiste em dividir um problema em um problema menor e mais simples
@@ -157,7 +123,7 @@
 
 	🎈 pré incremento ++i = Executa todos os calculos e já printa com o resultado atualizado. Adiciona 1 unidade e já mostra o resultado. Primeiro incrementa e depois mostra.
 
-========================= 🌸 CONVERSÃO BYTES SIZEOF ARVORES 🌸 🍬🌸🎈🍓📌💡
+========================= 🌸 CONVERSÃO BYTES SIZEOF ARVORES
 🍬 Arvores:
     🎈 Tambem pode ser chamado de grafo, mas tem um ponto onde inicia toda a arvore.
 	🎈 Não tem retorno do filho para o pai, retorno da subarvore para a raiz, o filho nao pode ser o pai do proprio pai
