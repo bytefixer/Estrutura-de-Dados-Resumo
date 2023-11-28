@@ -1,4 +1,4 @@
-Como funciona o método de envio de dados GET?
+## _Como funciona o método de envio de dados GET?_
 O metodo get usa sua propria URL para enviar os dados ao servidor, ou seja, quando um formulario é enviado pelo GET, o navegador pega as informações contidas no formulario e coloca junto com a sua URL de origem.
 
 Exemplo de uma URL:
