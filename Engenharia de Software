@@ -3,21 +3,15 @@ ________UNIDADE I________
 🌸 ===== Sobre a Engenharia de Software ===== 🌸
 
     🎈 Tempo atrás os softwares eram pequenos e a preocupaçao existia somente em cima do hardware. E o software era algo secundario.
-
     🎈 Com a complexidade dos softwares começaram a refletir no gerenciamento das empresas, logo adotou-se a parte da engenharia para gerenciar processos, metrifica-los, tendo total controle.
 
 🌸 ==== Definiçao software ==== 🌸
 
     🎈 Software: todos os programas de computador, estrutura de dados e documentaçao que servem para efetivar o método, processo ou controle lógico necessário.
-
     🎈 Hardware: dispositivos eletronicos que fornecem a capacidade ao computador e dispositivos eletromecanicos que oferecem funçoes ao mundo externo.
-
     🎈 Pessoas: usuarios e operadores de hardware e software.
-
     🎈 Banco de dados: uma grande e organizada coleçao de informaçoes a que se tem acesso pelo software e é parte integrante da funçao do sistema.
-
     🎈 Documentaçao: manuais, formularos e outras infos descritivas que retratam o uso do sistema.
-
     🎈 Procedimentos: os passos que definem o uso especificos de cada elemento do sistema ou o contexto processual em que o sistema reside.
 
 🌸 ===== PRODUTO ===== 🌸
@@ -31,21 +25,15 @@ ________UNIDADE I________
         💡 Um produto de software é sistematicamente destinado ao uso por pessoas com diferentes formaçoes e experiencias, por isso precisamos dar atençao nao só para as caracteristicas de desenvolvimento, mas também de interface, documentaçao e etc.
 
             🍰 Segundo Sommerville, existe 2 tipos de produtos de softwares: 🍰
-                
                 🍬 Produtos genericos: atende uma grande demanda, um software generico, sistemas stand-alone, produzidos por uma organizaçao de desenvolvimento e vendidos no mercado para qualquer cliente que deseja utiliza-los. Ex: ferramentos de banco de dados, processadores e texto etc.
-
                 🍬 Produtos sob encomenda: sistemas desenvolvidos para um cliente em particular. É um produto que é especifico para lidar com um problema especifico de alguma empresa que a contratou. Ex: sistemas de controle de trafego aereo. 
 
         💡 O produto de software é concebido e desenvolvido como resultado de um trabalho de engenharia e nao manufaturado no sentido classico.
-
         💡 O produto de software nao se desgasta, nao é o tempo que vai desgastar o software, no caso de um equipamento o tempo influencia, condiçoes climaticas, condiçoes de uso... O que pode acontecer é ele se tornar obsoleto e suas funcionalidades nao mais satisfazerem a necessidade do usuario, ou seja, softwares nao se desgastam mas sim, deterioram-se.
-
         💡 A maioria dos produtos de software é concebida inteiramente sob medida. Por causa disso, de caracteristicas diferenciais, o processo de desenvolvimento deproduto de software gera um conjunto de dificuldades, os quais possuem influencia direta na qualidade final do produto.
-
         💡 ES é uma abordagem sistematica para produçao de software; ela analisa questoes praticas de custo, prazo e confiança, assim como as necessdades dos clientes e produtos do software.
 
             🍰 Segundo Sommerville, existem diferentes tipos de software comercializados:
-                
                 🍬 Stand-alone(softwares que rodam em uma maquina unica, nao é conectado a internet, rede ou outra máquina):
 
                     🍦 Aplicaçoes interativas baseadas em transaçoes:
@@ -69,7 +57,6 @@ ________UNIDADE I________
                             (Ex: ambientes de simulaçao).
 
             🍰 Conceitos fundamentais comuns:
-
                 🍬 Todo produto de software deve ser desenvolvido em um processo gerenciado e compreendido;
                 🍬 Todos os produtos devem possuir caracteristicas como confiança e desempenho adequado, ou seja, devem se comportar conforme o esperado, sem falhas;
                 🍬 É fundamental entender e gerenciar todos os requisitos do sistema a fim de garantir que o produto final seja o esperado;
@@ -79,13 +66,9 @@ ________UNIDADE I________
 🌸 ===== REENGENHARIA E ENGENHARIA REVERSA ===== 🌸
 
     🎈 O conceito de reengenharia está bastante relacionado a manutençao do software. Ela envolve redocumentar, organizar e reestruturar o sistema, traduzir o sistema para uma linguagem de programaçao mais moderna e atualizar a estrutura e os valores dos dados do sistema. Basicamente seria atualizar um software que é antigo para algo mais atual.
-
     🎈 A engenharia reversa é o processo de analise de um programa, em um esforço para representa-lo em uma abstraçao mais alto do que o codigo fonte. A engenharia reversa é um processo de recuperaçao de projeto.
-
     🎈 Engenharia reversa e reengenharia nao é a mesma coisa.
-
     🎈 O objetivo da engenharia reversa é derivar o projeto ou a documentaçao de um sstema a partir de seu codigo fonte.
-
     🎈 Já o objetivo da reengenharia é produzir um novo sistema com manutençao mais facil. Assim, a engenharia reversa para desenvolver a melhor compreensao de um sistema é com frequenca parte do processo de reengenharia.
 
 
@@ -105,19 +88,14 @@ ________UNIDADE II________
     ✨ ES é uma disciplina que reune procedimentos(metodologias), métodos e ferramentas a serem utilizadas:
 
         💡 MÉTODOS: Proporcionam os detalhes de como fazer para construir o software(gerenciamento do projeto, analise de sistemas, analise de requisito, projeto do software, geraçao do código, teste, manutençao e etc).
-
         💡 FERRAMENTAS: dao suporte automatizado aos metodos. Existem atualmente ferramentas para sustenar cada um dos metodos. Quando as ferramentas sao integradas, é estabelecido um sistema de suporte ao desenvolvimento de software chamado CASE - Computer Aided Software Engineering.
-
         💡 PROCEDIMENTOS: constituem o elo entre os metodos e ferramentas. Estao relacionados a sequencia em que os metodos serao aplicados aos produtos de software. Por meio dos procedimentos ocorrem controles que asseguram a qualidade e coordenam as alteraçoes, além de permitirem marcos de referencia que possibilitam a administraçao do progresso do produto de software
-
         💡 Processo de software significa as tarefas que são necessarias para construir softwares de qualidade.
 
 🌸 ===== MODELOS DE DESENVOLVIMENTO DE SOFTWARE(Paradigmas de software)
     
     🎈 Paradigma da Engenharia de Software: representa a abordagem ou filosofia em particular para a construção de software.
-
     🎈 O modelo de processo de desenvolvimento corresponde ao conjunto e ao ordenamento de atividades de modo a que o produto desejado seja obtido.
-
     ✨ Modelo de desenvolvimento: Corresponde a uma representação abstrata do processo de desenvolvimento que vai definir como as etapas da criação do software serao conduzidas e inter-relacionadas para atingir o objetivo que é a obtenção de um produto de software de alta qualidade a um custo relativamente baixo. Boa na parte de entrevista, reuniões, muito utilizado para esclarecer duvidas sobre o meu projeto.
 
 
@@ -126,7 +104,6 @@ ________UNIDADE II________
                 🍬 Modelo simples, estabelece uma ordenação linear referente a realização das diferentes etapas. Ele é o modelo mais antigo e o mais amplamente usado da engenharia de software por ter sido modelado em função do ciclo da engenharia convencional. Uma tarefa chama a outra, uma por uma. Aqui é interessante que sempre vai ter um loop entre cada tarefa, caso tenha algum problema sempre irá voltar para cada passo para ser refeito. Muito cuidado pois voltar as tarefas é um custo grande.
 
             🍰 Prototipação: Previsão do produto, um 'esboço'.
-
             🍰 O modelo RAD(Rapid Application Development)
 
         💡 Modelos Evolutivos de Processo de Software: Existe situações que a ES necessita de um modelo de processo que possa acomodar um produto que evolui com o tempo.
@@ -144,7 +121,6 @@ ________UNIDADE II________
 
         💡 Modelos de Métodos Formais
         💡 Técnicas de quarta geração
-
         💡 Métodos ágeis: Muito aplicado no mercado, se aplica quando se tem um projeto pequeno e conduzimos com mais facilidade.
 
             🍰 Extreme Programming(XP):
@@ -255,7 +231,6 @@ ________UNIDADE IV________
     ✨ Tipos de documentos de requisitos
 
         💡 Definição de requisitos. Ele representa um consenso entre o que o cliente deseja e o que é possivel e será realizado.
-
         💡 Especificaçoes dos requisitos. Esse documento redefine o anterior para uma linguagem mais tecnica, apropriada para o desenvolvimento do projeto.
 
 🌸 ===== Gerencia de configurações ===== 🌸
@@ -289,9 +264,7 @@ ________UNIDADE V________
     ✨ Estratégias de teste:
 
         💡 Um teste é considerado um comunto de atividades qu deve ser planejado e realizado de forma sistematica. O planejamento e a realização das atividades de teste planejadas fazem parte do que definimos por estratégia de teste de software.
-
         💡 Testes devem ser realizados desde o inicio, desde o levantamento de requisitos, até o final do produto. Se um problema for diagnosticado cedo, mais facil será de ser arrumado.
-
         💡 Nenhum produto é testado apenas ao final do seu desenvolvimento, por isso que para cada etapa do processo, é necessaria uma estrategia especifica de teste.
 
     ✨ Considerando uma estrategia de teste, ela deve:
@@ -324,7 +297,6 @@ ________UNIDADE V________
         ✨ Existem dois tipos de testes que podem ser utilizados:
 
             💡 Teste de validação: significa se o produto cumpre com os requisitos já definidos.
-
             💡 Teste de defeito: verificar se há defeitos, significa que iremos identificar os defeitos, erros, bugs do projeto
 
 🌸 ===== Inspeção de software ===== 🌸
@@ -332,29 +304,22 @@ ________UNIDADE V________
     ✨ Existem 3 vantagens sobre inspeçao de teste:
 
          💡 Durante os testes, erros podem mascarar(ocultar) outros erros. Uma vez que um erro é descoberto, voce nunca pode estar seguro se outras anomalias de saida sao devidas a um novo erro ou sao efeitos colaterais do erro já descoberto. Uma unica seção de inspeçao pode descobrir varios erros.
-
          💡 Versoes incompletas de sistemas podem ser inspecionadas sem custos adicionais.
-
          💡 Assim como procurar defeitos de programa, uma inspeçao pode considerar atributos de qualidade mais amplos como conformidade com padroes, portabildade e facilidade de manutençao. Nesse momento, podem ser localizados, inclusive, algoritmos inapropriados e estilo de programaçao "pobre" que dificultaria o processo de manutençao.
 
     ✨ Tecnicas ou métodos de testes, devemos lembrar sempre que se tratando de testes:
 
         💡 Se erros gravse forem encontrados com regularidade, ntao a qualidade e a confiabilidade do software sao suspeitas.
-
         💡 Se erros facilmente corrigiveis forem encontrados, entao a qualidade e a confiabilidade do software estao aceitaveis, ou os testes sao inadquados para revelar erros graves desse particular software.
-
         💡 Se nao forem encontrados erros, entao a configuraçao de testes nao foi suficientemente elaborada e os erros estao escondidos no software.
 
     ✨ Em todo o processo, temos que ter em mente:
 
         💡 Defeito, num software, é uma deficiencia mecanica ou algoritmica que, se ativada, pode levar a uma falha.
-
         💡 Falha, num software, é um vento notavel em que o sistema viola suas especificaçoes. Geralmente aparece durante a utilizaçao do produto pelos usuarios.
-
         💡 Erro, num software, é um item de informaçao ou estado de execuçao inconsistente. Deve ser corrigido durante a fase de manutençao.
 
     ✨ Toda estrategia de teste é valida, desde que considere a verificaçao de testes de baixo nivel(logica) e testes de alto nivel(usabilidade). Deve oferecer a orientaçao ao profissional, um conjunto de marcos de referencia ao administrador, além de ter seu resultado mensuravel.
-
     ✨ Teste da caixa preta: Também chamado de teste funcional, é uma abordagem na qual o teste é derivado da especificaçao de programas ou de componentes.
 
     ✨ O teste procura descobrir erros nas seguintes categorias:
@@ -368,7 +333,6 @@ ________UNIDADE V________
     ✨ Teste da caixa branca: tem como objetivo determinar defeitos na estrutura interna do produto com tecnicas que eercitem possiveis caminhos e erros de execuçao.
     ✨ Nessa tecnica, sao testados caminhos logicos atrasves do software, fornecendo casos de testes que podem a prova conutos especificos de condiçoes e/ou laços definidos no sistema.
     ✨ É um teste mais especifico, verifica cada parte de algoritmo, hardware, vai até o nivel mais baixo nos testes.
-
     ✨ Bateria de testes: as politicos de teste podem ser criadas seguindo as seguintes estrategias:
 
         💡 Teste de unidade
