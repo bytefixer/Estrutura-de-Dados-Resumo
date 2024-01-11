@@ -2,5 +2,6 @@
 Meus resumos de algumas matérias do curso, estudando para as provas.
 
 📌 Matérias até agora:
-  - Engenharia de Software
-  - Programação WEB
+  - Engenharia de Software;
+  - Programação WEB;
+  - Estrutura de Dados I e II;
