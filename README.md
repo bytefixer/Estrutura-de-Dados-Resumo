@@ -6,3 +6,4 @@ Meus resumos de algumas matérias do curso, estudando para as provas.
   - Programação WEB;
   - Estrutura de Dados I e II;
   - Ánalise e Projeto de Sistemas;
+  - PowerBI;
