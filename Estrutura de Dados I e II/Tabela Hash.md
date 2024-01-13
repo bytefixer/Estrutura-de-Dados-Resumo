@@ -1,3 +1,5 @@
+## ✨ Explicação
+
 - 📌 O conceito de hash é que os registros armazenados em uma tabela são endereçados a partir de uma transformação aritmética sobre a chave de pesquisa.
 
 - 📌 Complexidade: O(n)
@@ -9,12 +11,12 @@
 	- Cada linha da tabela é um item. Cada item associa um valor a uma chave.
 	- Vetores, matrizes, listas ligadas, pilha, fila, são exemplos.
 
-- 📌 ==Parâmetros==:
+- 📌 **Parâmetros**:
 	- M => número de posições na tabela de hash (valores)
 	- N => número de chaves da tabela de símbolos (índices)
 	- α = M / N : fator de carga
 
-- 📌 ==Hashing tem 2 ingredientes fundamentais==:
+- 📌 **Hashing tem 2 ingredientes fundamentais**:
 	- Função de hashing ou função de espalhamento => transforma cada chave em um índice da tabela de hash.
 	- Mecanismo de resolução de colisões => dados podem ser duplicados, evita duplicatas
 
@@ -23,6 +25,9 @@
 - 📌 A função de hashing espalha as chaves pela tabela de hash.
 - 📌 A função de hashing associa um valor hash (hash value), entre 0 e M-1, a cada chave.
 - 📌 A função de hashing produz uma colisão quando duas chaves diferentes têm o mesmo valor hash e portanto são levadas na mesma posição da tabela de hash.
+
+---
+
 ## Função de hashing modular
 - 📌 Chaves positivas utilizamos a função modular:
 	- ***Resto da divisão*** por M:
