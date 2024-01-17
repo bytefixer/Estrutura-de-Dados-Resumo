@@ -38,21 +38,17 @@
 
   💡 O produto de software nao se desgasta, nao é o tempo que vai desgastar o software, no caso de um equipamento o tempo influencia, condiçoes climaticas, condiçoes de uso... O que pode acontecer é ele se tornar obsoleto e suas funcionalidades nao mais satisfazerem a necessidade do usuario, ou seja, softwares nao se desgastam mas sim, deterioram-se.
 
-        💡 A maioria dos produtos de software é concebida inteiramente sob medida. Por causa disso, de caracteristicas diferenciais, o processo de desenvolvimento deproduto de software gera um conjunto de dificuldades, os quais possuem influencia direta na qualidade final do produto.
+  💡 A maioria dos produtos de software é concebida inteiramente sob medida. Por causa disso, de caracteristicas diferenciais, o processo de desenvolvimento deproduto de software gera um conjunto de dificuldades, os quais possuem influencia direta na qualidade final do produto.
 
-        💡 ES é uma abordagem sistematica para produçao de software; ela analisa questoes praticas de custo, prazo e confiança, assim como as necessdades dos clientes e produtos do software.
+  💡 ES é uma abordagem sistematica para produçao de software; ela analisa questoes praticas de custo, prazo e confiança, assim como as necessdades dos clientes e produtos do software.
 
-            🍰 Segundo Sommerville, existem diferentes tipos de software comercializados:
+  🍰 Segundo Sommerville, existem diferentes tipos de software comercializados:
                 
-                🍬 Stand-alone(softwares que rodam em uma maquina unica, nao é conectado a internet, rede ou outra máquina):
+  🍬 Stand-alone(softwares que rodam em uma maquina unica, nao é conectado a internet, rede ou outra máquina):
 
-                    🍦 Aplicaçoes interativas baseadas em transaçoes:
-                        São executadas num computador remoto
-                            (Ex: software de email);
+  🍦 Aplicaçoes interativas baseadas em transaçoes: São executadas num computador remoto. (Ex: software de email);
 
-                    🍦 Sistemas de controle embutido:
-                        Aplicações que controlam e gerenciam dispositivos de hardware
-                            (Ex: softwares de microondas, de celular, etc);
+  🍦 Sistemas de controle embutido: Aplicações que controlam e gerenciam dispositivos de hardware. (Ex: softwares de microondas, de celular, etc);
 
                     🍦 Sistemas de processamento em lotes:
                         Aplicaçoes corporativas desenvolvidas para processar grandes quantidades de informaçoes
