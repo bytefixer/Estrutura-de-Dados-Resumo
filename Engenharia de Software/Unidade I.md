@@ -1,17 +1,17 @@
 # ✨ Sobre a Engenharia de Software
 
-  - 🎈 Tempo atrás os softwares eram pequenos e a preocupaçao existia somente em cima do hardware. E o software era algo secundario;
+  - 🎈 Tempo atrás os softwares eram pequenos e a preocupação existia somente em cima do hardware. E o software era algo secundário;
   - 🎈 Com a complexidade dos softwares começaram a refletir no gerenciamento das empresas, logo adotou-se a parte da engenharia para gerenciar processos, metrifica-los, tendo total controle;
-  - 🎈 ES é uma abordagem sistematica para produçao de software; ela analisa questoes praticas de custo, prazo e confiança, assim como as necessdades dos clientes e produtos do software.
+  - 🎈 ES é uma abordagem sistematica para produçao de software; ela analisa questoes praticas de custo, prazo e confiança, assim como as necessidades dos clientes e produtos do software.
 
 # ✨ Definição software
 
-  - 🎈 Software: todos os programas de computador, estrutura de dados e documentaçao que servem para efetivar o método, processo ou controle lógico necessário;
-  - 🎈 Hardware: dispositivos eletronicos que fornecem a capacidade ao computador e dispositivos eletromecanicos que oferecem funçoes ao mundo externo;
-  - 🎈 Pessoas: usuarios e operadores de hardware e software;
-  - 🎈 Banco de dados: uma grande e organizada coleçao de informaçoes a que se tem acesso pelo software e é parte integrante da funçao do sistema;
-  - 🎈 Documentaçao: manuais, formularos e outras infos descritivas que retratam o uso do sistema;
-  - 🎈 Procedimentos: os passos que definem o uso especificos de cada elemento do sistema ou o contexto processual em que o sistema reside.
+  - 🎈 ***Software***: todos os programas de computador, estrutura de dados e documentação que servem para efetivar o método, processo ou controle lógico necessário;
+  - 🎈 ***Hardware***: dispositivos eletronicos que fornecem a capacidade ao computador e dispositivos eletromecanicos que oferecem funções ao mundo externo;
+  - 🎈 ***Pessoas***: usuários e operadores de hardware e software;
+  - 🎈 ***Banco de dados***: uma grande e organizada coleção de informaçoes a que se tem acesso pelo software e é parte integrante da função do sistema;
+  - 🎈 ***Documentação***: manuais, formularios e outras informações descritivas que retratam o uso do sistema;
+  - 🎈 ***Procedimentos***: os passos que definem o uso especificos de cada elemento do sistema ou o contexto processual em que o sistema reside.
 
 # ✨ Produto
 
