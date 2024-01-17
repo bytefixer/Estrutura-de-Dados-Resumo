@@ -1,7 +1,6 @@
 ## ✨ Formatos de Arquivo para Armazenamento de Dados:
 
 - 📌 Há 2 tipos básicos de formatos de armazenamento de dados:
-
 	- 🌸 ***Arquivos***:
 		- Um *arquivo de dados* contém uma lista eletrônica de informações, que é formatada para uma determinada transação, e essas informações são modificadas e manipuladas por programas escritos para essas finalidades.
 			- 🎈 ***mestre***: Armazenam informações essenciais para o negócio, em específico para a aplicação, como informações de pedidos ou informações sobre endereços de correspondência dos clientes. Normalmente são mantidos por longos períodos, e novos registros são adicionados no final do arquivo quando novos pedidos ou clientes forem detectados pelo sistema.
@@ -27,3 +26,5 @@
 			- 🎈 ***Bancos de dados de objetos***: Ou chamado de orientados a objetos, a combinação de dados e processos é representada pelas classes de objetos, que são categorias principais dos objetos do sistema, e uma classe pode conter diversas subclasses ou casos especiais daquela classe. Os relacionamentos entre as classes de objetos são mostrados encapsulando uma classe de objeto dentro da outra, usados principalmente em aplicação de multimídia (gráficos, vídeo e som).
 
 			- 🎈 ***Banco de dados multidimensional***:  É um tipo de banco de dados relacional que tornou-se popular com o crescimento da data warehousing e é amplamente usado na mesma. Data warehousing é a prática de acessar os dados de sistemas de processamento de transações de uma empresa, transformá-los e armazená-los para serem usados em um data warehouse, ou seja, um grande banco de dados. Ele armazena informações calculadas previamente na interseção de dimensões para dar suporte a aplicações que exijam que os dados sejam analisados.
+
+---
