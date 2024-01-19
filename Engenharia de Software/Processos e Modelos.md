@@ -47,5 +47,5 @@
 
 🎈 Métodos ágeis: Muito aplicado no mercado, se aplica quando se tem um projeto pequeno e conduzimos com mais facilidade.
   - 💡 Extreme Programming(XP):
-    - 🍬 O analista, o cliente e o programador ficam juntos durante o projeto, fazem tudo junto. O analista descreve os requisitos junto com o cliente, o programador efetua e o validade se é isso o que ele queria, no final o analista confere
+    - 🍬 O analista, o cliente e o programador ficam juntos durante o projeto, fazem tudo junto. O analista descreve os requisitos junto com o cliente, o programador efetua e o validade se é isso o que ele queria, no final o analista confere se tudo está de acordo.
 ---
