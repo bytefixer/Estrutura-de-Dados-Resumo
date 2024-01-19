@@ -1,7 +1,9 @@
 # ✨ Processos de Software
 
 - 🎈 Quando falamos sobre processos, estamos falando de uma atividade, uma tarefa, como ela será feita, os procedimentos que ela obdecerá;
-- 🎈 ***Processo de software*** significa as tarefas que são necessarias para construir softwares de qualidade.
+- 🎈 ***Processo de software*** significa as tarefas que são necessarias para construir softwares de qualidade;
+- 🎈 As fases do processo de software são complementadas por uma série de atividades de apoio. Essas atividades são aplicadas durante toda a ES:
+  - 💡 **Métricas**, **Gerenciamento de Riscos**, **Acompanhamento e Controle do Projeto de Software**, **Garantia de Qualidade de Software**, **Gerenciamento de Configuração de Software**.
 
 ## ✨ Existem muitos processos, tais como:
 - 🎈 Especificação: a funcionalidade do software e as restriçoes em sua operaçao devem ser definidas;
@@ -23,21 +25,21 @@
 
 ✨ Modelo de desenvolvimento: Corresponde a uma representação abstrata do processo de desenvolvimento que vai definir como as etapas da criação do software serao conduzidas e inter-relacionadas para atingir o objetivo que é a obtenção de um produto de software de alta qualidade a um custo relativamente baixo. Boa na parte de entrevista, reuniões, muito utilizado para esclarecer duvidas sobre o meu projeto.
 
-  💡 Sequencial Linear:
-    🍰 Modelo Cascata ou Ciclo de Vida Clássico: 
-    🍬 Modelo simples, estabelece uma ordenação linear referente a realização das diferentes etapas. Ele é o modelo mais antigo e o mais amplamente usado da engenharia de software por ter sido modelado em função do ciclo da engenharia convencional. Uma tarefa chama a outra, uma por uma. Aqui é interessante que sempre vai ter um loop entre cada tarefa, caso tenha algum problema sempre irá voltar para cada passo para ser refeito. Muito cuidado pois voltar as tarefas é um custo grande.
+💡 Sequencial Linear:
+            🍰 Modelo Cascata ou Ciclo de Vida Clássico: 
+                🍬 Modelo simples, estabelece uma ordenação linear referente a realização das diferentes etapas. Ele é o modelo mais antigo e o mais amplamente usado da engenharia de software por ter sido modelado em função do ciclo da engenharia convencional. Uma tarefa chama a outra, uma por uma. Aqui é interessante que sempre vai ter um loop entre cada tarefa, caso tenha algum problema sempre irá voltar para cada passo para ser refeito. Muito cuidado pois voltar as tarefas é um custo grande.
 
-  🍰 Prototipação: Previsão do produto, um 'esboço'.
+            🍰 Prototipação: Previsão do produto, um 'esboço'.
 
-  🍰 O modelo RAD(Rapid Application Development)
+            🍰 O modelo RAD(Rapid Application Development)
 
-  💡 Modelos Evolutivos de Processo de Software: Existe situações que a ES necessita de um modelo de processo que possa acomodar um produto que evolui com o tempo.
+        💡 Modelos Evolutivos de Processo de Software: Existe situações que a ES necessita de um modelo de processo que possa acomodar um produto que evolui com o tempo.
 
-  🍰 O modelo incremental:
-  🍬 Parecido com o modelo de prototipação, foi criado a partir da exploração das limitações do modelo cascata, ao mesmo tempo em que combina as vantagens do modelo cascata com as do de Prototipação. Basicamente são versoes.
+            🍰 O modelo incremental:
+                🍬 Parecido com o modelo de prototipação, foi criado a partir da exploração das limitações do modelo cascata, ao mesmo tempo em que combina as vantagens do modelo cascata com as do de Prototipação. Basicamente são versoes.
 
-  🍰 O modelo espiral:
-    🍬 Dividido em uma serie de atividades de trabalho ou regioes de tarefas. Existem tipicamente de 3 a 6 regioes ou setores de tarefa. Quadrante de analise de riscos, quadrante do desenvolver o produto e o nivel do produto, quadrante das proximas etapas do plano e quadrante dos objetivos, alternativas e restrições
+            🍰 O modelo espiral:
+                🍬 Dividido em uma serie de atividades de trabalho ou regioes de tarefas. Existem tipicamente de 3 a 6 regioes ou setores de tarefa. Quadrante de analise de riscos, quadrante do desenvolver o produto e o nivel do produto, quadrante das proximas etapas do plano e quadrante dos objetivos, alternativas e restrições
 
             🍰 O modelo de Montagem de Componentes:
                 🍬 Incorpora caracteristicas de POO no modelo espiral, é de natureza evolutiva e demanda uma abordagem iterativa para a criação do software.
@@ -52,9 +54,7 @@
             🍰 Extreme Programming(XP):
                 🍬 O analista, o cliente e o programador ficam juntos durante o projeto, fazem tudo junto. O analista descreve os requisitos junto com o cliente, o programador efetua e o validade se é isso o que ele queria, no final o analista confere
 
-# ✨ Conclusão
-    🎈 As fases do processo de software são complementadas por uma série de atividades de apoio. Essas atividades são aplicadas durante toda a ES.
-    
-        💡 São elas: métricas, gerenciamento de riscos, acompanhamento e controle do projeto de software, garantia de qualidade de software, gerenciamento de configuração de software.
+🌸 ===== CONCLUSÃO ===== 🌸
+        💡 
 
 ---
