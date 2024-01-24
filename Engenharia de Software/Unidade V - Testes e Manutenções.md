@@ -1,14 +1,14 @@
-🌸 ===== Teste e Manutenção de software ===== 🌸
+## 🌸 Testes e Manutenção de software
 
-    🎈 Não temos como falar sobre software sem mencionar sobre como a qualidade de um produto de software é importante. Sempre temos que gerenciar ele a fim de obter um produto de alta qualidade.
+🎈 Não temos como falar sobre software sem mencionar sobre como a qualidade de um produto de software é importante. Sempre temos que gerenciar ele a fim de obter um produto de alta qualidade.
 
-    ✨ Estratégias de teste:
+✨ Estratégias de teste:
 
-        💡 Um teste é considerado um comunto de atividades qu deve ser planejado e realizado de forma sistematica. O planejamento e a realização das atividades de teste planejadas fazem parte do que definimos por estratégia de teste de software.
+💡 Um teste é considerado um comunto de atividades qu deve ser planejado e realizado de forma sistematica. O planejamento e a realização das atividades de teste planejadas fazem parte do que definimos por estratégia de teste de software.
 
-        💡 Testes devem ser realizados desde o inicio, desde o levantamento de requisitos, até o final do produto. Se um problema for diagnosticado cedo, mais facil será de ser arrumado.
+💡 Testes devem ser realizados desde o inicio, desde o levantamento de requisitos, até o final do produto. Se um problema for diagnosticado cedo, mais facil será de ser arrumado.
 
-        💡 Nenhum produto é testado apenas ao final do seu desenvolvimento, por isso que para cada etapa do processo, é necessaria uma estrategia especifica de teste.
+💡 Nenhum produto é testado apenas ao final do seu desenvolvimento, por isso que para cada etapa do processo, é necessaria uma estrategia especifica de teste.
 
     ✨ Considerando uma estrategia de teste, ela deve:
 
