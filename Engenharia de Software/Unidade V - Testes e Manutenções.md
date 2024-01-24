@@ -5,22 +5,20 @@
 ✨ Estratégias de teste:
 
 - 🎈 Um teste é considerado um comunto de atividades qu deve ser planejado e realizado de forma sistematica. O planejamento e a realização das atividades de teste planejadas fazem parte do que definimos por estratégia de teste de software.
-
 - 🎈 Testes devem ser realizados desde o inicio, desde o levantamento de requisitos, até o final do produto. Se um problema for diagnosticado cedo, mais facil será de ser arrumado.
-
 - 🎈 Nenhum produto é testado apenas ao final do seu desenvolvimento, por isso que para cada etapa do processo, é necessaria uma estrategia especifica de teste.
 
 ✨ Considerando uma estrategia de teste, ela deve:
 
-💡 Acomodar testes de baixo nivel e teste de alto nivel:
-        🍰 Baixo nivel significa que o teste é feito pelos programadores, engenheiros, algo bem especifico.
-        🍰 O teste de alto nivel é o mais proximo do usuario, do analista e etc.
+- 🎈 Acomodar testes de baixo nivel e teste de alto nivel:
+        - 💡 Baixo nivel significa que o teste é feito pelos programadores, engenheiros, algo bem especifico;
+  - 💡 O teste de alto nivel é o mais proximo do usuario, do analista e etc.
 
-💡 Oferecer orientaçao ao profissional.
-💡 Oferecer um conjunto de marcos de referencia ao administrador do projeto e de cada fase do sistema.
-💡 Ser mensuravel. Existem testes estatisticos que sao utilizados para testar desempenho e confiabilidade do programa para checar como ele trabalha sob determinadas condiçoes operacionais.
+🎈 Oferecer orientaçao ao profissional.
+🎈 Oferecer um conjunto de marcos de referencia ao administrador do projeto e de cada fase do sistema.
+🎈 Ser mensuravel. Existem testes estatisticos que sao utilizados para testar desempenho e confiabilidade do programa para checar como ele trabalha sob determinadas condiçoes operacionais.
 
-        A atividade de teste num produto de software nao é a mesma realizada pela equipe de desenvolvimento, ou seja, já possui alguns vicios que significa que é como se pensasse somente dentro da caixa, o melhor mesmo é pedir a alguém de fora da equipe de desenvolvimento para ter uma nova visão, apontar o teste, o que acontecerá e os tipos de falhas que foram encontradas.
+ A atividade de teste num produto de software nao é a mesma realizada pela equipe de desenvolvimento, ou seja, já possui alguns vicios que significa que é como se pensasse somente dentro da caixa, o melhor mesmo é pedir a alguém de fora da equipe de desenvolvimento para ter uma nova visão, apontar o teste, o que acontecerá e os tipos de falhas que foram encontradas.
 
 ## ✨ Validação e Verificação(V&V)
 
