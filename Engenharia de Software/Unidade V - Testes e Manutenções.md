@@ -1,4 +1,4 @@
-## 🌸 Testes e Manutenção de software
+## ✨ Testes e Manutenção de software
 
 🎈 Não temos como falar sobre software sem mencionar sobre como a qualidade de um produto de software é importante. Sempre temos que gerenciar ele a fim de obter um produto de alta qualidade.
 
@@ -23,7 +23,7 @@
 
         A atividade de teste num produto de software nao é a mesma realizada pela equipe de desenvolvimento, ou seja, já possui alguns vicios que significa que é como se pensasse somente dentro da caixa, o melhor mesmo é pedir a alguém de fora da equipe de desenvolvimento para ter uma nova visão, apontar o teste, o que acontecerá e os tipos de falhas que foram encontradas.
 
-🌸 ===== Validação e Verificação(V&V) ===== 🌸
+## ✨ Validação e Verificação(V&V)
 
     🎈 Nome dado aos processos de verificaçao e analise que asseguram que o software cumpra com as especificaçoes e atenda as necessidades dos clientes.
 
@@ -43,7 +43,7 @@
 
             💡 Teste de defeito: verificar se há defeitos, significa que iremos identificar os defeitos, erros, bugs do projeto
 
-🌸 ===== Inspeção de software ===== 🌸
+## ✨ Inspeção de Software
 
     ✨ Existem 3 vantagens sobre inspeçao de teste:
 
@@ -92,13 +92,14 @@
         💡 Teste de validaçao
         💡 Teste de sistema
 
-🌸 ===== Manutençao de software ===== 🌸
+## ✨ Manutenção de Software
 
-    🎈 Podemos dividir em 3 categorias:
-        💡 Corretivas
-        💡 Adaptativas
-        💡 Perfectivas
-    🎈 Modificar funçoes existentes
-    🎈 Incluir novas funçoes
-    🎈 Efetuar melhorias em geral
-    🎈 Melhorar a manutenibilidade ou confiabilidade futura e fornecer uma base melhor para posterior aprimoramento.
+- 🎈 Podemos dividir em 3 categorias:
+    - 💡 Corretivas;
+    - 💡 Adaptativas;
+    - 💡 Perfectivas
+- 🎈 Modificar funçoes existentes
+- 🎈 Incluir novas funçoes
+- 🎈 Efetuar melhorias em geral
+- 🎈 Melhorar a manutenibilidade ou confiabilidade futura e fornecer uma base melhor para posterior aprimoramento.
+---
