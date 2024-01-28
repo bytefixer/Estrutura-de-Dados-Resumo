@@ -4,41 +4,39 @@
 
 ✨ Estratégias de teste:
 
-- 🎈 Um teste é considerado um comunto de atividades qu deve ser planejado e realizado de forma sistematica. O planejamento e a realização das atividades de teste planejadas fazem parte do que definimos por estratégia de teste de software.
-- 🎈 Testes devem ser realizados desde o inicio, desde o levantamento de requisitos, até o final do produto. Se um problema for diagnosticado cedo, mais facil será de ser arrumado.
+- 🎈 Um teste é considerado um comunto de atividades qu deve ser planejado e realizado de forma sistematica. O planejamento e a realização das atividades de teste planejadas fazem parte do que definimos por estratégia de teste de software;
+- 🎈 Testes devem ser realizados desde o inicio, desde o levantamento de requisitos, até o final do produto. Se um problema for diagnosticado cedo, mais facil será de ser arrumado;
 - 🎈 Nenhum produto é testado apenas ao final do seu desenvolvimento, por isso que para cada etapa do processo, é necessaria uma estrategia especifica de teste.
 
 ✨ Considerando uma estrategia de teste, ela deve:
 
 - 🎈 Acomodar testes de baixo nivel e teste de alto nivel:
         - 💡 Baixo nivel significa que o teste é feito pelos programadores, engenheiros, algo bem especifico;
-  - 💡 O teste de alto nivel é o mais proximo do usuario, do analista e etc.
+  💡 O teste de alto nivel é o mais proximo do usuario, do analista e etc.
 
 🎈 Oferecer orientaçao ao profissional.
 🎈 Oferecer um conjunto de marcos de referencia ao administrador do projeto e de cada fase do sistema.
 🎈 Ser mensuravel. Existem testes estatisticos que sao utilizados para testar desempenho e confiabilidade do programa para checar como ele trabalha sob determinadas condiçoes operacionais.
 
- A atividade de teste num produto de software nao é a mesma realizada pela equipe de desenvolvimento, ou seja, já possui alguns vicios que significa que é como se pensasse somente dentro da caixa, o melhor mesmo é pedir a alguém de fora da equipe de desenvolvimento para ter uma nova visão, apontar o teste, o que acontecerá e os tipos de falhas que foram encontradas.
+🎈 A atividade de teste num produto de software nao é a mesma realizada pela equipe de desenvolvimento, ou seja, já possui alguns vicios que significa que é como se pensasse somente dentro da caixa, o melhor mesmo é pedir a alguém de fora da equipe de desenvolvimento para ter uma nova visão, apontar o teste, o que acontecerá e os tipos de falhas que foram encontradas.
 
 ## ✨ Validação e Verificação(V&V)
 
 🎈 Nome dado aos processos de verificaçao e analise que asseguram que o software cumpra com as especificaçoes e atenda as necessidades dos clientes.
 
-        ✨ Validaçao: refere-se ao conjunto de atividades que garante que o software que foi construido seja rastravel as exigencias do cliente. Basicamente responde a pergunta: Estamos fazendo o produto certo?
+✨ Validaçao: refere-se ao conjunto de atividades que garante que o software que foi construido seja rastravel as exigencias do cliente. Basicamente responde a pergunta: Estamos fazendo o produto certo?
 
-        ✨ Verificaçao: refere-se ao conunto de atividades que garante que o software seja construido da forma correta. Basicamente responde a pergunta: estamos fazendo o certo produto?
+✨ Verificaçao: refere-se ao conunto de atividades que garante que o software seja construido da forma correta. Basicamente responde a pergunta: estamos fazendo o certo produto?
 
-    🎈 O objetivo principal do V&V é estabelecer um vinculo de confiança entre o sistema de desenvolvimento e o projeto aprovado pelo usuario.
+🎈 O objetivo principal do V&V é estabelecer um vinculo de confiança entre o sistema de desenvolvimento e o projeto aprovado pelo usuario.
 
-    🎈 O nivel de confiabilidade eigida depende, em grande escala, do proposito do cliente, das expectativas do usuario (que pode ou nao ser a mesma pessoa que o cliente) e o atual ambiente/segmento do mercado no qual o software será utilizado.
+🎈 O nivel de confiabilidade eigida depende, em grande escala, do proposito do cliente, das expectativas do usuario (que pode ou nao ser a mesma pessoa que o cliente) e o atual ambiente/segmento do mercado no qual o software será utilizado.
 
-    🎈 Testar um software significa experimenta-lo, usando dados reais do usuario e examinar a saida esperada para confirmar anomalias.
+🎈 Testar um software significa experimenta-lo, usando dados reais do usuario e examinar a saida esperada para confirmar anomalias.
 
-        ✨ Existem dois tipos de testes que podem ser utilizados:
-
-            💡 Teste de validação: significa se o produto cumpre com os requisitos já definidos.
-
-            💡 Teste de defeito: verificar se há defeitos, significa que iremos identificar os defeitos, erros, bugs do projeto
+- ✨ Existem dois tipos de testes que podem ser utilizados:
+        - 💡 Teste de validação: significa se o produto cumpre com os requisitos já definidos;
+  💡 Teste de defeito: verificar se há defeitos, significa que iremos identificar os defeitos, erros, bugs do projeto
 
 ## ✨ Inspeção de Software
 
