@@ -1,4 +1,4 @@
-## Memória Dinâmica e Estática
+## ✨ Memória Dinâmica e Estática
 
 📌 As informações utilizadas por um programa estão armazenadas na memória.
 
@@ -7,7 +7,7 @@
 📌 **Alocar** uma área de memória significa solicitar ao sistema operacional que reserve um espaço exclusivo para este programa.
 
 
-## Alocação estática - memória Stack
+## ✨ Alocação estática - memória Stack
 
 📌 Quando o SO inicia um programa, ele aloca regiões de memória que serão utilizadas por esse programa. Porém, o tamanho dessas áreas de memória alocados é fixo, ou seja, não pode ser alterado durante a execução de um programa.
 
@@ -23,7 +23,7 @@
 
 📌 A liberação de memória é feita automaticamente pelo SO.
 
-## Alocação dinâmica - memória Heap
+## ✨ Alocação dinâmica - memória Heap
 
 📌 O espaço é alocado dinamicamente *durante a execução do programa*.
 
@@ -101,7 +101,7 @@ A função recebe o argumento: o ponteiro para a área de memória alocada por m
 
 ---
 
-## Lixo de memória
+## ✨ Lixo de memória
 
 📌 Esse termo se refere ao conteúdo indefinido ou não inicializado que pode ter em uma área de memória. É o resultado de operações anteriores no programa, dados que foram deixados para trás.
 
