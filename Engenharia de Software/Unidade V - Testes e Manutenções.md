@@ -63,8 +63,8 @@
   - 💡 Erros de inicializaçao e termino.
 
 - 🎈 ***Teste da caixa branca***: tem como objetivo determinar defeitos na estrutura interna do produto com tecnicas que eercitem possiveis caminhos e erros de execuçao;
-  - 💡 Nessa técnica, sao testados caminhos logicos atrasves do software, fornecendo casos de testes que podem a prova conutos especificos de condiçoes e/ou laços definidos no sistema;
-  - 💡🎈 É um teste mais especifico, verifica cada parte de algoritmo, hardware, vai até o nivel mais baixo nos testes.
+  - 💡 Nessa técnica, são testados caminhos logicos atrasves do software, fornecendo casos de testes que podem a prova conutos especificos de condiçoes e/ou laços definidos no sistema;
+  - 💡 É um teste mais especifico, verifica cada parte de algoritmo, hardware, vai até o nivel mais baixo nos testes.
 
 - 🎈 Bateria de testes: as politicos de teste podem ser criadas seguindo as seguintes estrategias:
   - 💡 Teste de unidade;
