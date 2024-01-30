@@ -6,7 +6,6 @@
 
 📌 **Alocar** uma área de memória significa solicitar ao sistema operacional que reserve um espaço exclusivo para este programa.
 
----
 
 ## Alocação estática - memória Stack
 
@@ -23,8 +22,6 @@
    - Toda variável declarada é alocada na memória Stack.
 
 📌 A liberação de memória é feita automaticamente pelo SO.
-
----
 
 ## Alocação dinâmica - memória Heap
 
@@ -45,7 +42,6 @@
 
 📌 Utilizamos alocação dinâmica quando não se sabe quanto de memória será necessário para o armazenamento dos elementos. Assim, o tamanho de memória necessário é determinado conforme a necessidade e dessa forma evita-se o desperdício de memória.
 
----
 
 ## ✨ Alocando e liberando memória - Funções
 
