@@ -99,8 +99,6 @@ void free(void *p);
 
 A função recebe o argumento: o ponteiro para a área de memória alocada por malloc().
 
----
-
 ## ✨ Lixo de memória
 
 📌 Esse termo se refere ao conteúdo indefinido ou não inicializado que pode ter em uma área de memória. É o resultado de operações anteriores no programa, dados que foram deixados para trás.
