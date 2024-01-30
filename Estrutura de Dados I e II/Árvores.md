@@ -27,8 +27,6 @@
  
 - 📌 Se o número de nós é igual a zero, chamamos de *árvore vazia*.
 
----
-
 ## ✨ Terminologias
 
 - ***Raiz***: nó origem da árvore.
@@ -67,3 +65,4 @@
 - 📌 Árvore ordenada: Uma árvore é ordenada quando os filhos estão ordenados, da esquerda pra direita.
 	- O valor de cada nó na ***esquerda é MENOR*** que o valor da raiz.
 	- O valor de cada nó na ***direita é MAIOR*** que o valor da raiz.
+---
