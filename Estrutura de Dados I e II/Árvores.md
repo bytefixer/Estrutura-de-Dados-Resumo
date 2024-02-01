@@ -1,20 +1,20 @@
 ## ✨ Explicação
 
-📌 Árvores são estrutura de dados hierárquicas, ou há subordinação.
+📌 Árvores são estrutura de dados hierárquicas, ou há subordinação;
 
-📌 Um subconjunto dos componentes é subordinado a outro.
+📌 Um subconjunto dos componentes é subordinado a outro;
 
-📌 Relacionamento lógico.
+📌 Relacionamento lógico;
 
-📌 Complexidade: O(n)
+📌 Complexidade: O(n);
 
-📌 A raiz da árvore, que está no nível 0, é o *topo da hierarquia*, possui filhos mas não possui pai.
+📌 A raiz da árvore, que está no nível 0, é o *topo da hierarquia*, possui filhos mas não possui pai;
 
-📌 Um nó em um determinado nível está conectado a seus filhos (nível abaixo) e a seu pai (nível acima).
+📌 Um nó em um determinado nível está conectado a seus filhos (nível abaixo) e a seu pai (nível acima);
 
-📌 Uma árvore não retorna do nó filho para o pai, o filho não pode ser o pai do próprio pai.
+📌 Uma árvore não retorna do nó filho para o pai, o filho não pode ser o pai do próprio pai;
 
-📌 Árvores são formadas por um conjunto de elementos, os quais chamamos de nodos (ou vértices) conectados por um conjunto de arestas.
+📌 Árvores são formadas por um conjunto de elementos, os quais chamamos de nodos (ou vértices) conectados por um conjunto de arestas;
 
 - 📌 ***Diagrama de inclusão***: Pode-se dizer que a raiz é como o *conjunto universal* na teoria dos conjuntos, ou seja, a raiz é o conjunto universal que abriga todos os outros elementos:
 	- No contexto de nós, a raiz engloba todos os nodos, os nós das sub árvores são os conjuntos restantes e a cada nó há outros dentro deste conjunto.
