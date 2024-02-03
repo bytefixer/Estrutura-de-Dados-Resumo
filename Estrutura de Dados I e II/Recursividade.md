@@ -29,7 +29,7 @@ def fatNR(n):
 		- switch-case
 	- Deve ter invocar a si mesmo pelo menos uma vez ao ser executado.
 
----
+## ✨ Tipos de Recursividade
 
 - 📌 Há 2 tipos de recursividade:
 	- **Recursão direta**: Quando uma função chama a si mesma diretamente.
