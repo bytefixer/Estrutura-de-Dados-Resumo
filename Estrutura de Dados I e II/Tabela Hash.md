@@ -1,4 +1,4 @@
-## ✨ Explicação
+## ✨ Conceitos
 
 - 📌 O conceito de hash é que os registros armazenados em uma tabela são endereçados a partir de uma transformação aritmética sobre a chave de pesquisa;
 
