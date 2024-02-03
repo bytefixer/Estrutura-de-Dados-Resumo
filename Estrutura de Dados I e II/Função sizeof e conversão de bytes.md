@@ -1,4 +1,4 @@
-## ✨ # Operador sizeof
+## ✨ Operador sizeof
 
 Quando declaramos uma struct, é alocado um espaço na memória para cada membro pertencente à estrutura, por exemplo:
 
@@ -43,7 +43,7 @@ Ou seja, as variáveis de estrutura obtém o mesmo valor da concepção da estru
 
 Para saber a quantidade de bytes que uma estrutura tem, basta somar os valores de cada membro.
 
-## ☁ Conversão bytes e bits
+## ✨ Conversão bytes e bits
 
 8 bits = 1 byte
 bits para byte = dividir por 8
